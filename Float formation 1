@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+
+    float num;
+
+    // Input the float value
+
+    scanf("%f", &num);
+
+    // Print the float in various formats
+
+    printf("%.6f\n", num);   // 6 decimal places
+
+    printf("%.4f\n", num);   // 4 decimal places
+
+    printf("%.2f\n", num);   // 2 decimal places
+
+    printf("%.0f\n", num);   // As an integer
+
+    return 0;
+
+}
