@@ -1,0 +1,43 @@
+#include <stdio.h>
+
+#include <math.h>
+
+int main() {
+
+    float floatVal;
+
+    int intSqrtVal, base, power;
+
+    // Reading input
+
+    scanf("%f", &floatVal);
+
+    scanf("%d", &intSqrtVal);
+
+    scanf("%d", &base);
+
+    scanf("%d", &power);
+
+    // Performing calculations
+
+    int floored = floor(floatVal);
+
+    int ceiled = ceil(floatVal);
+
+    int squareRoot = sqrt(intSqrtVal);
+
+    int powered = pow(base, power);
+
+    // Printing results
+
+    printf("%d\n", floored);
+
+    printf("%d\n", ceiled);
+
+    printf("%d\n", squareRoot);
+
+    printf("%d\n", powered);
+
+    return 0;
+
+}
