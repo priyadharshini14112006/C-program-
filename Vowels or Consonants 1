@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+#include <ctype.h>  // for isalpha() function
+
+int main() {
+
+    char ch;
+
+    scanf("%c", &ch);
+
+    // Check if input is a letter
+
+    if (isalpha(ch)) {
+
+        // Convert to lowercase for easier comparison
+
+        char lower = tolower(ch);
+
+        // Check for vowels
+
+        if (lower == 'a' || lower == 'e' || lower == 'i' || lower == 'o' || lower == 'u') {
+
+            printf("The Character %c is Vowel\n", ch);
+
+        } else {
+
+            printf("The Character %c is Consonant\n", ch);
+
+        }
+
+    } else {
+
+        printf("Invalid Input\n");
+
+    }
+
+    return 0;
+
+}
