@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+
+    int integerValue;
+
+    float floatValue;
+
+    // Read input values
+
+    scanf("%d", &integerValue);
+
+    scanf("%f", &floatValue);
+
+    // Print the values with correct formatting
+
+    printf("%d\n", integerValue);
+
+    printf("%.2f\n", floatValue);
+
+    return 0;
+
+}
